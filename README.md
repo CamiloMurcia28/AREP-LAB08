@@ -72,27 +72,6 @@ The interaction between the system components follows a clear flow:
 
 * The RemoteRunnable client, upon receiving the JSON response from the API, can display or utilize the translation result as required. This might involve displaying it in an application, storing it, or using it as part of a larger workflow.
 
-### Architecture Diagram
-```mermaid
-sequenceDiagram
-    participant Client as Client (RemoteRunnable)
-    participant API as FastAPI Server
-    participant Chain as LangChain Chain
-    participant Prompt as ChatPromptTemplate
-    participant Model as ChatOpenAI Model
-    participant Parser as StrOutputParser
-
-    Client->>API: Send translation request (language, text)
-    API->>Chain: Forward request to LangChain Chain
-    Chain->>Prompt: Construct prompt with parameters
-    Prompt->>Model: Send constructed prompt
-    Model->>Parser: Return raw translation output
-    Parser->>Chain: Format output
-    Chain->>API: Send formatted response
-    API->>Client: Return translation result in JSON
-
-```
-
 ![Screenshot 2024-11-07 154638](https://github.com/user-attachments/assets/5a4481d4-8b03-42d2-9a07-656eda6681a2)
 
 
