@@ -1,4 +1,4 @@
-# AREP-LAB05
+# AREP-LAB08
 LAB 08 - AREP
 
 # Introduction to Creating RAGs (Retrieval-Augmented Generators) with OpenAI
