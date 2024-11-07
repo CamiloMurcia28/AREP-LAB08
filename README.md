@@ -15,13 +15,6 @@ The developed application is a manager for a property list. It allows users to a
 
 The following instructions will allow you to get a working copy of the project on your local machine for development and testing purposes.
 
-### Build with:
-    
-* [Git](https://git-scm.com) - Version Control System
-- [Lang Chain](https://python.langchain.com/docs/get_started/introduction) - Python Library to interact with AI
-- [OpenAI](https://openai.com/) - AI Plataform
-* [Python](https://www.python.org/) - Programming Language
-
 ### Requirements:
 
 #### ⚠️ Important
@@ -101,14 +94,14 @@ python longchainclient
 
 3. Open the application in a web browser:
 
-Navigate to http://localhost:8080/index.html to interact with the application.
+Navigate to http://localhost:8000/chain/playground to interact with the application.
 
-## Built With
-    * Spring Boot - The backend framework
-    * React - The frontend library
-    * MySQL - Database
-    * Maven - Dependency Management
-    * npm - Package Manager for JavaScript
+### Build with:
+    
+* [Git](https://git-scm.com) - Version Control System
+- [Lang Chain](https://python.langchain.com/docs/get_started/introduction) - Python Library to interact with AI
+- [OpenAI](https://openai.com/) - AI Plataform
+* [Python](https://www.python.org/) - Programming Language
 
 ## Versioning
 
